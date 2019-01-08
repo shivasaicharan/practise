@@ -23,3 +23,20 @@ function MyFunction(){
     p.sort(function(a,b) {return(a-b)});
     document.getElementById("sort").innerHTML=p;
   }
+  function print_window(){
+    window.print();
+  }
+  alert("javascriptloaded");
+  var d= new Date();
+  var day= d.getDay();
+  var a=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  document.getElementById("day").innerHTML= "Today is : " +a[day]+".";
+  var hour= d.getHours();
+  var min=d.getMinutes();
+  var sec=d.getSeconds();
+  var prepand;
+  if(hour>=12)
+   prepand='PM';
+  else
+   prepand='AM';
+  document.getElementById("time").innerHTML="Current time is :"+hour+prepand+":"+min+":"+sec+".";
