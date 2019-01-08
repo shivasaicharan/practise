@@ -41,3 +41,8 @@ else
   prepand = 'AM';
 document.getElementById("time").innerHTML = "Current time is :" + hour + prepand + ":" + min + ":" + sec + ".";
 console.log("page loaded " + hour);
+var d = new Date();
+var dd = d.getDate();
+var mm = d.getMonth()+1;
+var yyyy = d.getFullYear();
+document.getElementById("date1").innerHTML = mm+"-"+dd+"-"+yyyy+", "+mm+"/"+dd+"/"+yyyy+", "+dd+"/"+mm+"/"+yyyy+".";
