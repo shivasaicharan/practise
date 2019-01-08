@@ -1,0 +1,55 @@
+h1 {
+color: hotpink;
+text-align: center;
+font-style: times new roman;
+font-size: 30px;
+}
+body{
+ background-color: powderblue;
+ padding: 20px;
+}
+.uno{
+ font-family: lucida console;
+ color: rgb(173, 175, 52);
+ font-size: 25px;
+}
+h2{
+ text-align:center;
+ color:hotpink;
+ border:3px solid tomato;
+}
+h3{
+ text-align:center;
+ color:hotpink;
+}
+h4{
+ text-align:center;
+ color:hotpink;
+}
+h5{
+ text-align:center;
+ color:hotpink;
+}
+h6{
+ text-align:center;
+ color:hotpink;
+}
+a:link{
+    color: green;
+}
+a:visited{
+ color: hotpink;
+ background-color:transparent;
+}
+a:hover{
+ color: red;
+}
+a:active{
+ color: blue;
+}
+table,th,td{
+ border:1px solid black;
+ border-collapse:collapse;
+ padding:5px;
+ width:50%;
+}
