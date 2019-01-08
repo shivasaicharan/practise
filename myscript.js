@@ -20,8 +20,6 @@ function MyFunction(){
    document.getElementById("date").innerHTML=Number(x);
   }
   function sort(){
-    var p=[10,20,40,1,4];
-    document.getElementById("sort").innerHTML=p;
     p.sort(function(a,b) {return(a-b)});
     document.getElementById("sort").innerHTML=p;
   }
