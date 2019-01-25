@@ -19,17 +19,30 @@ function sort() {
         author: "Tolkine",
         price: 360
     };
-    var a = [];
-    a.push(book, book1, book2);
-    a.sort(function (a, b) {
+    var c = [];
+    c.push(book, book1, book2);
+    c.sort(function (a, b) {
         return a.price - b.price
     });
-    a.sort(function (a1, b1) {
+    c.sort(function (a1, b1) {
         var x = a1.title.toLowerCase();
         var y = b1.title.toLowerCase();
-        console.log(a);
         return (x < y ? -1 : (x > y ? 1 : 0));
     });
-    console.log("inner", a);
-    document.getElementById("book").innerHTML = JSON.stringify(a);
+    document.getElementById("book").innerHTML = JSON.stringify(c);
+}
+function sortkey(){
+    var book = {
+        title: "Making India Awesome",
+        author: "A Chetan bhagat",
+        price: 1200
+    };
+    var b={};
+    var c=[];
+    for(var x in book){
+        c.push([x,book[x]]);
+    }
+    c.sort();
+    console.log(JSON.stringify(c));
+    document.getElementById("result").innerHTML=c;
 }
