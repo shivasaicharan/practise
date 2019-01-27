@@ -19,6 +19,6 @@ function repeat(){
             i++;
         console.log('inner',c);
     }
-    document.getElementById("result").innerHTML=b.filter(function(e){return e}+"repeated in an array");
+    document.getElementById("result").innerHTML=b.filter(function(e){return e})+"repeated in an array";
     console.log(c);
 }
