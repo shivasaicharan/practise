@@ -1,0 +1,28 @@
+form li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+form ul li label{
+    float: left;
+    clear: left;
+    width: 400px;
+    text-align: right;
+    font-family:Verdana;
+    margin-right: 10px;
+    font-size: 14px;
+}
+form ul li input, select{
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid maroon;
+}
+form span{
+    float: left;
+    margin-bottom: 10px;
+}
+[type="submit"]{
+    clear: left;
+    margin: 20px 0 0 400px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,40 @@
+<hhtml>
+    <head>
+        <title>Registration form</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body onload="document.registration.uname.focus()">
+        <form name="registration">
+            <fieldset>
+                <legend>Registration form</legend>
+                    <ul>
+                        <li><label>Enter UserName :</label></li>
+                        <li><input type="text" name="uname" id="uname" title="UserName length should be 6-10 characters" required></li>
+                        <li><label>Enter Password :</label></li>
+                        <li><input type="password" id="password" title="password should contain one uppercase letter, number and special sign it should not less than 6 characters" required></li>
+                        <li><label>Enter Name :</label></li>
+                        <li><input type="text" id="name" size="30" title="Name should contain only alphabits" required></li>
+                        <li><label>Select country :</label></li>
+                        <li><select><option selected="" value="Default">Please select country name</option>
+                        <option>America</option>
+                        <option>Australia</option>
+                        <option>Canada</option>
+                        <option>Germany</option>
+                        <option>Japan</option>
+                        <option>India</option>
+                        </select></li>
+                        <li><label>Enter EmailId :</label></li>
+                        <li><input type="email" id="email"size=50 required></li>
+                        <li><label>Gender :</label></li>
+                        <li><input type="radio" name="Gender" value="Male" id="Male"><span>Male</span></li>
+                        <li><input type="radio" name="Gender" value="Female" id="Female"><span>Female</span></li>
+                        <li><label>Language :</label></li>
+                        <li><input type="checkbox" name="language" value="English"><span>English</span></li>
+                        <li><input type="checkbox" name="language" value="Non English"><span>Non English</span></li>
+                        <li><input type="submit" onclick="validate()" value="submit"></li>
+                    </ul>
+            </fieldset>
+        </form>
+        <script src="form.js"></script>
+    </body>
+</hhtml>
