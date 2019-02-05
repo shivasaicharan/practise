@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Moving buttons</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="move.js"></script>
+        <style>
+            #slide1{
+                background-color: rgb(102, 102, 15);
+                width: 200px;
+                height: 200px;
+                position: absolute;
+            }
+            #slide2{
+                background-color: rgb(151, 106, 50);
+                border-width: 1px;
+                left: 250px;
+                width: 200px;
+                height: 200px;
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="slide1">
+            <button id="move1" onclick="move(this)">Slide1</button>
+            <button id="move2" onclick="move(this)">Slide2</button>
+        </div>
+        <div id="slide2"></div>
+    </body>
+</html>

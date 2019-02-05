@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Zebra strip table element</title>
+        <style>
+            table,tr,th,td{
+                width: 50%;
+                text-align: center;
+                border: 1px solid black;
+                border-collapse: collapse;
+                border-color: rgb(163, 100, 221);
+                padding: 5;
+            }
+            table{
+                left: 300;
+            }
+            .zebra{
+                background-color: rgb(219, 197, 240);
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="zebra.js"></script>
+    </head>
+    <body>
+        <table align="center">
+            <tr>
+                <th>Name</th>
+                <th>B.tech percentage</th>
+            </tr>
+            <tr>
+                <td>Shiva</td>
+                <td>75%</td>
+            </tr>
+            <tr>
+                <td>Sai</td>
+                <td>76%</td>
+            </tr>
+            <tr>
+                <td>Charan</td>
+                <td>78%</td>
+            </tr>
+            <tr>
+                <td>Abhi</td>
+                <td>79%</td>
+            </tr>
+        </table>
+    </body>
+</html>
