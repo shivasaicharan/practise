@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+#content{
+    font-size: 30px;
+    margin-top: 150px;
+}
+#topic h1{
+    font-size: 30px;
+    width: 100%;
+    top: 0;
+    background-color: rgb(143, 131, 131);
+    padding: 40px;
+    margin-top: 0;
+    position: fixed;
+}
+#bar{
+    height: 8px;
+    background: antiquewhite;
+    width: 100%;
+    top: 110px;
+    position: fixed;
+}
+#subbar{
+    background: red;
+    height:8px;
+    width: 0%;
+}
